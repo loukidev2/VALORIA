@@ -1,0 +1,147 @@
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #222;
+  --header-bg: #07083d;
+  --btn-bg: #4e60ff;
+  --btn-color: #fff;
+  --section-bg: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: var(--header-bg);
+  color: var(--btn-color);
+  padding: 60px 20px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 40px 20px;
+  background: var(--section-bg);
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* ===== GALLERY ===== */
+.image-box img {
+  width: 45%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  padding: 20px;
+  background: var(--header-bg);
+  color: var(--btn-color);
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* ===== VIP SECTION ===== */
+#vip {
+  background: #fff;
+  margin: 20px auto;
+  padding: 40px 20px;
+  max-width: 900px;
+  border-radius: 20px;
+}
+
+#vip h2 {
+  margin-bottom: 20px;
+}
+
+.vip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vip-item {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 15px;
+  width: 180px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.vip-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.vip-item:hover {
+  transform: scale(1.05);
+}
+
+body.dark-mode .vip-item {
+  background: #333;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.05);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .vip-item {
+    width: 140px;
+  }
+
+  .vip-item img {
+    height: 100px;
+  }
+}
+
+/* ===== DARK MODE ===== */
+body.dark-mode {
+  --bg-color: #1e1e1e;
+  --text-color: #fff;
+  --header-bg: #333;
+  --btn-bg: #555;
+  --btn-color: #fff;
+  --section-bg: #2a2a2a;
+}

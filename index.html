@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VALORIA RP</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+      text-align: center;
+      transition: all 0.5s ease;
+    }
+
+    header {
+      background: #0b044e;
+      color: #fff;
+      padding: 60px 20px;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      background: #fff;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 20px;
+      transition: background 0.5s ease, color 0.5s ease;
+    }
+
+    .image-box img {
+      width: 45%;
+      margin: 5px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: #0b044e;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 20px 0;
+      background: #0b044e;
+      color: #fff;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    /* Dark Mode */
+    body.dark-mode {
+      background: #1e1e1e;
+      color: #fff;
+    }
+
+    body.dark-mode header,
+    body.dark-mode footer {
+      background: #333;
+      color: #fff;
+    }
+
+    body.dark-mode section {
+      background: #2a2a2a;
+      color: #fff;
+    }
+
+    body.dark-mode .btn,
+    body.dark-mode button {
+      background: #555;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 id="serverName">VALORIA RP</h1>
+  <p id="serverDesc">عيش تجربة واقعية داخل عالم Roleplay مغربي</p>
+    <img src="https://cdn.discordapp.com/attachments/1430359221437730846/1430359597046042755/pngtree-golden-feather-png-image_6716424-removebg-preview.png?ex=68f97dae&is=68f82c2e&hm=9c96845cdbc68c53510ab60d9b021aef99c49dd7649c42035567d4fc409e7c55&" alt="لقطة من اللعبة" />
+</header>
+
+<button id="toggleTheme">🌙 تبديل الوضع</button>
+
+<section id="owners">
+  <h2>👑 مالين السيرفر</h2>
+  <ul id="ownersList">
+    <li>Dev_Bo9al "Owner"</li>
+    <li>Salma "Co-Owner"</li>
+  </ul>
+
+</section>
+
+<section id="join">
+  <h2>🎮 دخول السيرفر</h2>
+  <a href="https://discord.gg/T6pXzUaY" target="_blank" class="btn">ادخل إلى الديسكورد</a>
+</section>
+
+<section id="gallery">
+  <h2>📸 صور من داخل اللعبة</h2>
+  <div class="image-box">
+    <img src="https://cdn.discordapp.com/attachments/1403039630395314367/1430313137881747698/mta-screen_2025-10-21_22-42-07.png?ex=68f9526a&is=68f800ea&hm=b6a0956cbdd0f1125ec3e77beb2d17028a09b9b1768cd0e5d0c97e9b5023201f&" alt="لقطة من اللعبة" />
+    <img src="https://cdn.discordapp.com/attachments/1403039630395314367/1430349019242172446/mta-screen_2025-10-22_01-15-43.png?ex=68f973d4&is=68f82254&hm=a1d7133b9c5e942799835e1754bd8bd275cf078b7415149e1e8450f43346c0ed&" alt="لقطة أخرى" />
+    <img src="https://cdn.discordapp.com/attachments/1403039630395314367/1430361955805298779/mta-screen_2025-10-22_02-05-00.png?ex=68f97fe1&is=68f82e61&hm=d4e960a53ace4416939ce651da50d81c72b5ed4f8d68060da52bcdb72d55206a&" alt="لقطة أخرى" />
+    <img src="https://cdn.discordapp.com/attachments/1403039630395314367/1430312541757636608/mta-screen_2025-10-21_22-48-50.png?ex=68f951db&is=68f8005b&hm=16162394467067761ca3400ce3bf8475c4e30078c30d6f1928243d131aa823d0&" alt="لقطة أخرى" />
+    <img src="https://cdn.discordapp.com/attachments/1403039630395314367/1430312542466609234/mta-screen_2025-10-21_22-49-00.png?ex=68f951dc&is=68f8005c&hm=f741c63fc5eb0e045ecfe95eb58717c25981e7c2df256683e9afe329fcd1ff9d&" alt="لقطة أخرى" />
+  </div>
+</section>
+
+<section id="VIP">
+    <img src="https://cdn.discordapp.com/attachments/1411887306586984458/1430367612562444298/Golden_Wings_PNG_Image__Golden_Wings__Creative__Gold__Wing_PNG_Image_For_Free_Download-removebg-preview.png?ex=68f98525&is=68f833a5&hm=70e7322d42fe92064786f79b1accceaa2854cea688b0aa5d31f10f622d9afba8&" alt="لقطة أخرى" />
+  
+  <h2>💎 عروض الـ VIP</h2>
+  <div class="vip-container">
+    <div class="vip-item">
+      <img src="https://cdn.discordapp.com/attachments/1410995836032258120/1430514770791895171/WhatsApp_Image_2025-10-22_a_12.07.31_efb99f76-removebg-preview.png?ex=68fa0e33&is=68f8bcb3&hm=6b30f2ad2dafa8525674177511a9aa5bc7d4f861b9aabcdfb80616baf61cd71c&" alt="VIP 1" />
+      <p>VIP HOUSE</p>
+      <a href="https://wa.me/212698637230?text=Salam%20bghit%20nchri%20VIP%20HOUSEe%20mn%20Valoria%20RP" target="_blank" class="btn">اشترِ الآن</a>
+    </div>
+    <div class="vip-item">
+      <img src="https://cdn.discordapp.com/attachments/1410995836032258120/1430514771320635423/WhatsApp_Image_2025-10-22_a_12.07.30_ade43f1e-removebg-preview.png?ex=68fa0e33&is=68f8bcb3&hm=642b2947bd251a8235fad5f7b63a502189346548ab552f3e75477bad8a0021a1&" alt="VIP 2" />
+      <p>VIP VEHICLE</p>
+      <a href="https://wa.me/212698637230?text=Salam%20bghit%20nchri%20VIP%20VEHICLE%20mn%20Valoria%20RP" target="_blank" class="btn">اشترِ الآن</a>
+    </div>
+    <div class="vip-item">
+      <img src="https://cdn.discordapp.com/attachments/1410995836032258120/1430514771974688849/WhatsApp_Image_2025-10-22_a_12.07.30_a0277fea-removebg-preview.png?ex=68fa0e33&is=68f8bcb3&hm=32558afdf6aebe0d02db5e6d17510219a56e92f8f0dea3a3fafe344bb0132d73&" alt="VIP 3" />
+      <p>VIP MOTOR</p>
+      <a href="https://wa.me/212698637230?text=Salam%20bghit%20nchri%20VIP%20MOTOR%20mn%20Valoria%20RP" target="_blank" class="btn">اشترِ الآن</a>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <p>© 2025 VALORIA RP - جميع الحقوق محفوظة</p>
+</footer>
+
+<script>
+  // Dark/Light Mode
+  const toggleBtn = document.getElementById('toggleTheme');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+
+
+</script>
+
+</body>
+</html>
